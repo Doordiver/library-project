@@ -1,0 +1,37 @@
+[
+  {
+    "title": "A Game Of Thrones",
+    "isbn": "978-0007448036",
+    "location": "A3"
+  },
+  {
+    "title": "A Storm of Sword",
+    "isbn": "978-0007447848",
+    "location": "A4"
+  },
+  {
+    "title": "A Feast for Crows",
+    "isbn": "978-0007447862",
+    "location": "A5"
+  },
+  {
+    "title": "A Dance of Dragons",
+    "isbn": "978-0007466061",
+    "location": "A6"
+  },
+  {
+    "title": "A Clash of Kings",
+    "isbn": "978-0007447831",
+    "location": "A7"
+  },
+  {
+    "title": "A Knight of the Seven Kingdoms",
+    "isbn": "978-0007507672",
+    "location": "A8"
+  },
+  {
+    "title": "Fire and Blood",
+    "isbn": "978-0008307738",
+    "location": "A9"
+  }
+]
