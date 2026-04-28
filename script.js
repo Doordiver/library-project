@@ -10,14 +10,28 @@
 
 import bookData from './library_table.json' with {type : "json"};
 
+const bookForm = document.querySelector("#functions form")
+bookForm.addEventListener("submit", queryBook)
+
+function extractBook(e){
+    e.preventDefault()
+    queryBook(e)
+    e.target[0].value = ""
+}
+
 const queryBook = function(book){
+    book.preventDefault()
     for (let i = 0; i < bookData.length; i++) {
         if (bookData[i].title === book) {
-            return [bookData[i].title, bookData[i].isbn, bookData[i].location, bookData[i].author,bookData[i].genre]
+            const data =[bookData[i].title, bookData[i].isbn, bookData[i].location, bookData[i].author,bookData[i].genre]
+            return data
         }
     }
 }
 
+function searchBook(book){
+    console.log(queryBook(book))
+}
 console.log(queryBook("A Game Of Thrones"))
 
 import fs from 'fs'
