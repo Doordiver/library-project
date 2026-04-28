@@ -13,7 +13,7 @@ import bookData from './library_table.json' with {type : "json"};
 const queryBook = function(book){
     for (let i = 0; i < bookData.length; i++) {
         if (bookData[i].title === book) {
-            return [bookData[i].title, bookData[i].isbn, bookData[i].location]
+            return [bookData[i].title, bookData[i].isbn, bookData[i].location, bookData[i].author,bookData[i].genre]
         }
     }
 }
@@ -26,14 +26,16 @@ const addBook = function(addTitle, isbn, author, genre, location) {
     bookData.push({
         title: addTitle,
         isbn: isbn,
-        location: location
+        location: location,
+        author : author,
+        genre: genre
     })
     fs.writeFileSync(
         './library_table.json',
         JSON.stringify(bookData, null, 2))
 }
 
-addBook("Winds of Winter", "083274-182357", "A8")
+addBook("Winds of Winter", "083274-182357", "A8", "George RR Martin", "Fantasy")
 
 console.log(queryBook("Winds of Winter"))
 
@@ -48,6 +50,6 @@ const removeBook = function(remTitle){
         JSON.stringify(bookData, null, 2))
 }
 
-removeBook("Winds of Winter")
+// removeBook("Winds of Winter")
 
 console.log(queryBook("Winds of Winter"))
