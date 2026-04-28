@@ -1,0 +1,45 @@
+#functions{
+    display:flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#add-book{
+    padding: 20px;
+    border-radius:30px;
+    background-color: rgb(142, 179, 191);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(142, 179, 191);
+  border: solid 3px rgb(142, 179, 191);
+}
+
+a:hover{
+    border: solid 3px rgb(121, 153, 163);
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width:1300px
+}
+
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: rgb(241, 241, 241);}
+
+th {
+  background-color: rgb(142, 179, 191);
+  color: white;
+}
