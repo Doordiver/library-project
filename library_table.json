@@ -2,36 +2,57 @@
   {
     "title": "A Game Of Thrones",
     "isbn": "978-0007448036",
-    "location": "A3"
+    "location": "A3",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
   },
   {
     "title": "A Storm of Sword",
     "isbn": "978-0007447848",
-    "location": "A4"
+    "location": "A4",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
   },
   {
     "title": "A Feast for Crows",
     "isbn": "978-0007447862",
-    "location": "A5"
+    "location": "A5",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
   },
   {
     "title": "A Dance of Dragons",
     "isbn": "978-0007466061",
-    "location": "A6"
+    "location": "A6",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
   },
   {
     "title": "A Clash of Kings",
     "isbn": "978-0007447831",
-    "location": "A7"
+    "location": "A7",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
   },
   {
     "title": "A Knight of the Seven Kingdoms",
     "isbn": "978-0007507672",
-    "location": "A8"
+    "location": "A8",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
   },
   {
     "title": "Fire and Blood",
     "isbn": "978-0008307738",
-    "location": "A9"
+    "location": "A9",
+    "author": "George RR Martin",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Winds of Winter",
+    "isbn": "083274-182357",
+    "location": "Fantasy",
+    "author": "A8",
+    "genre": "George RR Martin"
   }
 ]
